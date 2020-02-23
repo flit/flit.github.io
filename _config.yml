@@ -13,10 +13,10 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: flit
+title: notes from flit
 email: flit@ftml.net
 description: >- # this means to ignore newlines until "baseurl:"
-  My blog.
+  Some blog with my name on it.
 # twitter_username: username
 github_username: flit
 minimal_mistakes_skin: dark
@@ -25,19 +25,22 @@ url: https://flit.github.io/
 repository: flit/flit.github.io
 
 # Build settings
-# theme: minimal-mistakes-jekyll
-remote_theme: mmistakes/minimal-mistakes
+theme: minimal-mistakes-jekyll
+# remote_theme: mmistakes/minimal-mistakes
+
+# breadcrumbs: true
 
 markdown: kramdown
 
 # Outputting
-permalink: /:categories/:title/
+# permalink: /:categories/:title/
 paginate: 20 # amount of posts to show
 paginate_path: /page:num/
-timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+timezone: America/Chicago
 
 include:
   - _pages
+  - _projects
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
@@ -63,7 +66,7 @@ plugins:
 author:
   name   : "Chris Reed"
 #   avatar : "/assets/images/bio-photo.jpg"
-  bio    : "security research and embedded software architect."
+  bio    : "embedded systems researcher."
   links:
     - label: "Website"
       icon: "fas fa-fw fa-link"
@@ -78,6 +81,11 @@ footer:
       icon: "fab fa-fw fa-github"
       url: "https://github.com/flit"
 
+collections:
+  projects:
+    output: true
+    permalink: /:collection/:path/
+
 defaults:
   # _posts
   - scope:
@@ -86,10 +94,21 @@ defaults:
     values:
       layout: single
       author_profile: true
-      read_time: true
+      read_time: false
       comments: true
-      share: true
-      related: true
+      share: false
+      related: false
+      sidebar:
+        nav: projects
+  # _projects
+  - scope:
+      path: ""
+      type: projects
+    values:
+      layout: single
+      author_profile: true
+      sidebar:
+        nav: projects
   # _pages
   - scope:
       path: "_pages"
@@ -97,6 +116,8 @@ defaults:
     values:
       layout: single
       author_profile: true
+      sidebar:
+        nav: projects
 
 category_archive:
   type: liquid
