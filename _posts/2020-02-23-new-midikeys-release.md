@@ -9,6 +9,8 @@ tags:
   - mac
 ---
 
+![](/assets/images/midikeys_screen.png)
+
 After a decade-long lapse, there is finally a new release of MidiKeys. Aside from long wanting to
 get a new release out, the primary motivator for this release was that the last MidiKeys release was
 32-bit only and will no longer work on Catalina later. Thus, the new MidiKeys is a proper 64-bit
