@@ -4,14 +4,14 @@ title: "MidiKeys"
 
 MidiKeys is a small application for macOS that presents a resizeable MIDI keyboard onscreen.
 
-<img src="/assets/images/MidiKeys_v3_1024.png" width=64 height=64/> [Download version 1.9](https://github.com/flit/MidiKeys/releases/download/v1.9.0/MidiKeys_1.9.zip){: .btn .btn--primary}
+[Download version 1.9](https://github.com/flit/MidiKeys/releases/download/v1.9.0/MidiKeys_1.9.zip){: .btn .btn--primary}
 
 You can use the computer keyboard to play MIDI notes, or click on the keys with the mouse. There is
 also an option to select a MIDI source and see incoming notes played on the keyboard. Global hotkeys
 can be enabled, with configurable modifier keys, including none, to play notes using the computer
 keyboard when other applications are frontmost.
 
-{% include figure image_path="/assets/images/midikeys_screen.png" caption="MidiKeys screenshot" %}
+![MidiKeys screenshot](/assets/images/midikeys_screen.png)
 
 Note that MidiKeys has no way to produce sound on its own. In order to hear a sound when you press
 keys, you need to connect the MIDI output to a synthesizer of some sort. This can be either a

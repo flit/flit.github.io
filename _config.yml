@@ -25,8 +25,8 @@ url: https://flit.github.io/
 repository: flit/flit.github.io
 
 # Build settings
-theme: minimal-mistakes-jekyll
-# remote_theme: mmistakes/minimal-mistakes
+# theme: minimal-mistakes-jekyll
+remote_theme: mmistakes/minimal-mistakes
 
 # breadcrumbs: true
 
