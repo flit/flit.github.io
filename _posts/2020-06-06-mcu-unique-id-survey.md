@@ -45,7 +45,7 @@ unique between device families of the same vendor. Unfortunately, this informati
 documented in the device's reference manual. Talk to your FAE if you need more information (then
 post a comment on the gist below to add to the survey!).
 
-The results of this survey are saved as the gist embedded below. New devices will added as time
+The results of this survey are saved as the gist embedded below. New devices will be added as time
 permits. Comments with additions are welcome.
 
 <script src="https://gist.github.com/flit/c44980d20586460bb09b284c891f9ae6.js"></script>
