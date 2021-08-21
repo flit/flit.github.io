@@ -4,7 +4,7 @@ title: "MidiKeys"
 
 MidiKeys is a small application for macOS that presents a resizeable MIDI keyboard onscreen.
 
-[Download version 1.9](https://github.com/flit/MidiKeys/releases/download/v1.9.0/MidiKeys_1.9.zip){: .btn .btn--primary}
+[Download version 1.9.1](https://github.com/flit/MidiKeys/releases/download/v1.9.1/MidiKeys_1.9.1.zip){: .btn .btn--primary}
 
 You can use the computer keyboard to play MIDI notes, or click on the keys with the mouse. There is
 also an option to select a MIDI source and see incoming notes played on the keyboard. Global hotkeys
@@ -23,7 +23,10 @@ are welcome!
 
 [View release notes](https://github.com/flit/MidiKeys/releases/)
 
-Version 1.9 requires macOS 10.11 or later.
+Version 1.9.1 requires macOS 10.11 or later.
+
+**Note:** If you are running Big Sur (macOS 11.x) you must upgrade to version 1.9.1 or later. Version 1.9.0
+and earlier will crash on startup.
 
 If you need to run MidiKeys on older OS versions, you can use the
 [version 1.8 release](https://github.com/flit/MidiKeys/releases/tag/v1.8.0).
